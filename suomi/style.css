@@ -1,3 +1,4 @@
+/* Sivujen yläosa */
 header {
     background-color: black;
     width: 100%;
@@ -7,13 +8,9 @@ header {
     font-size: 35px;
 }
 
+/* Sivun body */
 body {
     background-color:  #1e1e1e;
-}
-
-/* kuvien css */
-img {
-    width: 100%s;
 }
 
 .nav {
@@ -39,29 +36,25 @@ img {
     transition: 0.3s ease;
 }
 
-/* Hover-efekti */
+/* Hover animaatio ylävalikon napeissa */
 .nav li a:hover {
     background: #f1c40f;
     color: #111;
     transform: translateY(-2px);
 }
 
-/* Valittu sivu – jos haluat korostuksen */
+/* Korostaa ylävalikon napit kun currsori on päällä */
 .nav li a.active {
     background: #f1c40f;
     color: #111;
 }
 
-
+/* Hintataulukon tyyli */
 table {
   width: 100%;
   background: #f1c40f;
   border-collapse: collapse;
   margin-top: 20px;
-
-ul {
-  color: white;
-}
     
 }
 th, td {
@@ -89,6 +82,7 @@ img {
     box-shadow: 0 0 11px #f1c40f;
 }
 
+
 .kuva {
     width: 95%;
     padding: 5px; 
@@ -103,6 +97,7 @@ img {
     float: left;
 }
 
+/* Ota yhteyttä sivun formi */
 form {
     color: white;
     justify-content: center;
@@ -125,7 +120,8 @@ background: linear-gradient(
   #e6e6e6
 );
 
-/*
+*/
+
 
 
 
