@@ -58,6 +58,11 @@ table {
   background: #f1c40f;
   border-collapse: collapse;
   margin-top: 20px;
+
+ul {
+  color: white;
+}
+    
 }
 th, td {
   border: 2px solid black;
@@ -121,5 +126,6 @@ background: linear-gradient(
 );
 
 /*
+
 
 
