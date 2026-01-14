@@ -14,9 +14,7 @@ body {
 footer {
     background color: yellow;
     color: black;
-    height: 400px;
-    justify-content: center;
-    text-align: center;
+    height: 200px;
 }
 /* kuvien css */
 img {
@@ -128,3 +126,4 @@ background: linear-gradient(
 );
 
 /*
+
