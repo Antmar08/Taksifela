@@ -21,7 +21,6 @@ body {
     gap: 20px;
     background: black;
     padding: 15px 20px;
-    border-radius: 8px;
     justify-content: center;
     align-content: center;
 }
@@ -75,6 +74,7 @@ h1, p {
 img {
     width: 300px;
     height: 300px;
+    border-radius: 30px;
 }
 
 /* Etusivun kuvien/linkkien tyylit */
@@ -116,6 +116,7 @@ img {
 );
     margin: 5x;
     float: left;
+    border-radius: 30px;
 }
 
 .kuva1 {
@@ -132,6 +133,7 @@ img {
 );
     margin: 5x;
     float: left;
+    border-radius: 30px;
 }
 
 /* Ota yhteyttä sivun formi */
@@ -159,6 +161,7 @@ background: linear-gradient(
 );
 
 */
+
 
 
 
