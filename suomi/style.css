@@ -77,10 +77,30 @@ img {
     height: 300px;
 }
 
-/* Etusivun kuvan/linkin tyylit */
+/* Etusivun kuvien/linkkien tyylit */
 
 .kuva:hover {
-    box-shadow: 0 0 11px #f1c40f;
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa ylävalikon napit kun currsori on päällä */
+.kuva.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+.kuva1:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa ylävalikon napit kun currsori on päällä */
+.kuva1.active {
+    background: #f1c40f;
+    color: #111;
 }
 
 
@@ -139,6 +159,7 @@ background: linear-gradient(
 );
 
 */
+
 
 
 
