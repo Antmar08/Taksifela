@@ -42,7 +42,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Korostaa ylävalikon napit kun currsori on päällä */
+/* Korostaa ylävalikon napit kun cursori on päällä */
 .nav li a.active {
     background: #f1c40f;
     color: #111;
@@ -85,7 +85,7 @@ img {
     transform: translateY(-2px);
 }
 
-/* Korostaa ylävalikon napit kun currsori on päällä */
+/* Korostaa kuvien/linkkien napit kun cursori on päällä */
 .kuva.active {
     background: #f1c40f;
     color: #111;
@@ -97,7 +97,6 @@ img {
     transform: translateY(-2px);
 }
 
-/* Korostaa ylävalikon napit kun currsori on päällä */
 .kuva1.active {
     background: #f1c40f;
     color: #111;
@@ -153,6 +152,7 @@ background: linear-gradient(
 );
 
 */
+
 
 
 
