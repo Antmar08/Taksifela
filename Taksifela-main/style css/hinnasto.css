@@ -1,0 +1,199 @@
+/* Sivujen yläosa */
+header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* Sivun body */
+body {
+    background-color:  #1e1e1e;
+}
+
+/* sivun alaosa */
+footer {
+    background-color: #f1c40f;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Sivujen osien paikat */
+.site {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background: black;
+    padding: 15px 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Hover animaatio ylävalikon napeissa */
+.nav li a:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa ylävalikon napit kun cursori on päällä */
+.nav li a.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+/* Hintataulukon tyyli */
+table {
+  width: 100%;
+  height: 55%;
+  background: #f1c40f;
+  border-collapse: collapse;
+  margin-top: 20px;   
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+    color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+/* Etusivun kuvien/linkkien tyylit */
+
+.kuva:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa kuvien/linkkien napit kun cursori on päällä */
+.kuva.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+.kuva1:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+.kuva1.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+
+.kuva {
+    width: 100%;
+    padding: 5px; 
+    background-color: #1e1e1e;
+    margin: 5x;
+    float: left;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.kuva1 {
+    justify-content: right;
+    text-align: right;
+    width: 100%;
+    padding: 5px; 
+    background-color: #1e1e1e;
+    margin: 5x;
+    float: left;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+/* Ota yhteyttä sivun formi */
+form {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Kaikki label kohdat eli laatikot johon voi täyttää tietoja  */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+/* Kelataksi sivun listan tyyli */
+.kela {
+    color: white;
+}
+
+
+/* täs o iha pähee chrome värikoodi: 
+background: linear-gradient(
+  135deg,
+  #f2f2f2,
+  #cfcfcf,
+  #9e9e9e,
+  #e6e6e6
+);
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
