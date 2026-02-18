@@ -58,7 +58,7 @@
         Taksi Fela tarjoaa luotettavat ja mukavat taksipalvelut silloin, kun haluat liikkua helposti ja vaivattomasti.<br> Kuljetamme sinut turvallisesti perille kaikkina vuorokaudenaikoina – nopeasti, joustavasti ja aina hyvällä palveluasenteella.<br>
         
         Olipa kyseessä arkinen asiointimatka, kyyti lentokentälle, juhlat, työmatka tai ennakkoon varattu kuljetus, hoidamme sen puolestasi.<br> Meille tärkeitä ovat täsmällisyys, turvallisuus ja asiakkaan hyvä olo jokaisella matkalla.</p>
-    </div></a>
+    </div>
     </section>
 
     <!-- Kuvat linkillä -->
@@ -96,6 +96,7 @@
 
 
 </html>
+
 
 
 
