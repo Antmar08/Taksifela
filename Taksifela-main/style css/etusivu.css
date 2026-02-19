@@ -1,0 +1,324 @@
+@keyframes slide {
+   from {top: 300px;opacity: 0%;}
+   to {top:0px;opacity: 100%;}
+}
+/* Sivujen yläosa */
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* Sivun body */
+body {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    color: black;
+    background-image: url("../kuvat/etusivu1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+section {
+    background-color: #1e1e1e;
+    border-color: #f1c40f;
+    border-top-style: double;
+}
+
+/* sivun alaosa */
+footer {
+    background-color: #dbb311;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 30px;
+}
+
+/* Footerin admin linkki */
+#admin {
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 0.5em;
+}
+
+/* Sivujen osien paikat */
+.site {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background: black;
+    padding: 15px 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Hover animaatio ylävalikon napeissa */
+.nav a:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa ylävalikon napit kun cursori on päällä */
+.nav a.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+.nav .icon {
+  display: none;
+}
+
+/*centeraa buttonit classilla*/
+.buttonit {
+  text-align: center;
+  align-content: center;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-direction: normal;
+  position: relative;
+}
+
+/* buttonien tyylit / asetukset */
+button {
+    color: #f1c40f;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+  
+/* Etusivun buttonin/linkkien tyylit */
+button:hover {
+    width: 200px;
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+/* Korostaa buttonin/linkkien napit kun cursori on päällä */
+button.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+/* h1 tekstien tyylit */
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1,25em;
+    font-weight: bold;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    position: relative;
+}
+
+h2 {
+    color: #111;
+}
+
+/* p tekstien tyylit */
+p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/* Kuvien tyylit joilla ei id */
+
+#sisatila {
+    width: 50%;
+    height: 20%;
+}
+
+#kelataksi {
+    width: 50%;
+    height: 20%;
+}
+
+#otayht {
+    width: 50%;
+    height: 20%;
+}
+
+/* Taksifela header logojen tyyli */
+#logo {
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#logo:hover {
+    width: 325px;
+    height: 125px;
+}
+
+#pnumero {
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#pnumero:hover {
+    width: 325px;
+    height: 125px;
+}
+
+/* Etusivun kuvien/linkkien tyylit */
+.kuva:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa kuvien/linkkien napit kun cursori on päällä */
+.kuva.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+.kuva1:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+.kuva1.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+
+.kuva {
+    width: 75%;
+    padding: 10px; 
+    background-color: #1e1e1e00;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.kuva1 {
+    justify-content: right;
+    text-align: right;
+    width: 75%;
+    padding: 10px; 
+    background-color: #1e1e1e00;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.teksti {
+    width: 75%;
+    padding: 10px; 
+    background-color: #f1c40f;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    color: #1e1e1e00;
+    font-size: 1.25em;
+}
+
+/* Kaikki label kohdat eli laatikot johon voi täyttää tietoja  */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+/* Navin mobiiliresponsiivisuus */
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
