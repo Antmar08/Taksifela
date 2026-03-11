@@ -1,0 +1,8 @@
+/* Tämä on muokkaa kansiossa olevan muokkaa.php sivun css */
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+}
