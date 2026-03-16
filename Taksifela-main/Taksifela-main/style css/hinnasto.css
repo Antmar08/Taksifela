@@ -1,0 +1,403 @@
+/* Tämä on hinnasto.php eli hinnastosivun css */
+
+@keyframes slide {
+   from {transform: translateY(300px); opacity: 0%;}
+   to {transform: translateY(0px); opacity: 100%;}
+}
+
+/* Sivujen yläosa */
+header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* Sivun body */
+body {
+    background-color:  #1e1e1e;
+}
+
+main {
+    background-color: #1e1e1e;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 440px;
+}
+
+/* sivun alaosa */
+footer {
+background-color: #dbb311;
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+    
+}
+
+/* Footerin admin linkki */
+#admin {
+    color: black;
+    position: relative;
+    float: right;
+
+    font-size: 0.5em;
+}
+
+/* Taksifela header logojen tyyli */
+#logo {
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#logo:hover {
+    width: 325px;
+    height: 125px;
+}
+
+
+#pnumero {
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#pnumero:hover {
+    width: 325px;
+    height: 125px;
+}
+
+/* Sivujen osien paikat */
+.site {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background: black;
+    padding: 15px 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Hover animaatio ylävalikon napeissa */
+.nav a:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+/* Korostaa ylävalikon napit kun cursori on päällä */
+.nav a.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+.nav .icon {
+  display: none;
+}
+
+/*centeraa buttonit classilla*/
+.buttonit {
+  text-align: center;
+  align-content: center;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-direction: normal;
+  position: relative;
+}
+
+/* buttonien tyylit / asetukset */
+button {
+    color: #f1c40f;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+  
+/* Etusivun buttonin/linkkien tyylit */
+button:hover {
+    background: #f1c40f;
+    color: #111;
+    transform: translateY(-2px);
+}
+/* Korostaa buttonin/linkkien napit kun cursori on päällä */
+button.active {
+    background: #f1c40f;
+    color: #111;
+}
+
+/* Hintataulukon tyyli */
+table {
+  width: 80%;
+  background: #111;
+  border-collapse: collapse; 
+  margin-bottom: auto;  
+  margin-right: auto;
+  margin-left: auto;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-direction: normal;
+}
+
+/* Hintataulukon sarakkeet */
+tr, th{
+  border: 6px solid #f1c40f;
+  padding: 5px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+/* Tilausohjeet lista */
+.ohjeet {
+    color: white;
+    text-align: center;
+    list-style-position: inside; 
+    justify-items: center;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    
+}
+
+h1 {
+    color: #f1c40f;
+    text-align: center;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    position: relative;
+}
+
+h2 {
+    color: #f1c40f;
+    text-align: center;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    position: relative;
+}
+
+li {
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-direction: normal;
+  position: relative;
+}
+
+nobr, a, a:hover {
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    position: relative;
+}
+
+/* Kaikki label kohdat eli laatikot johon voi täyttää tietoja  */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+#tulos {
+    color: #f1c40f;
+    text-align: center;
+    font-size: 1.40em;
+    font-weight: bold;
+    margin: 20px;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-direction: normal;
+    position: relative;
+}
+
+.laskuri {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  border-color: #f1c40f;
+  width: 70%;
+  margin: 40px auto 60px auto;
+  padding: 30px;
+  background: #111;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  font-family: Arial, sans-serif;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-direction: normal;
+  position: relative;
+}
+
+
+.laskuri label {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.laskuri label span {
+  display: block;
+  margin-bottom: 6px;
+  color: #f1c40f;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.laskuri input[type="checkbox"] {
+  display: block;
+  margin: 0 auto;
+}
+
+.laskuri span {
+  display: block;
+  margin-bottom: 6px;
+  color: #f1c40f;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.laskuri input,
+.laskuri textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 2px solid #333;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.laskuri textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.laskuri input:focus,
+.laskuri textarea:focus {
+  outline: none;
+  border-color: #f1c40f;
+  box-shadow: 0 0 0 2px rgba(247,198,0,0.3);
+}
+
+.laskuri button {
+  width: fit-content;
+  height: fit-content;
+  padding: 14px;
+  background: #f1c40f;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
+}
+
+.laskuri button:hover {
+  background: #f1c40f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.laskuri button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+
+/* Navin mobiiliresponsiivisuus */
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
